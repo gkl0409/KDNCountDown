@@ -8,8 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface ViewController : UIViewController<UIPickerViewDelegate, UIPickerViewDataSource> {
+    IBOutlet UILabel *countDownDisplaylabel;
+    IBOutlet UIButton *changeCountDownButton;
+    IBOutlet UIButton *setTimeButton;
+    IBOutlet UIPickerView *pickerView;
+}
 
 @end
 

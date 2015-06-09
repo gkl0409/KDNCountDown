@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D41BE57D1B2477B400E3A0B5 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D41BE57C1B2477B400E3A0B5 /* AVFoundation.framework */; };
 		D4E3182C1B23DD29003275B7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D4E3182B1B23DD29003275B7 /* main.m */; };
 		D4E3182F1B23DD29003275B7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D4E3182E1B23DD29003275B7 /* AppDelegate.m */; };
 		D4E318321B23DD29003275B7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4E318311B23DD29003275B7 /* ViewController.m */; };
@@ -27,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D41BE57C1B2477B400E3A0B5 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		D4E318261B23DD29003275B7 /* KDNCountDown.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KDNCountDown.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4E3182A1B23DD29003275B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D4E3182B1B23DD29003275B7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -47,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D41BE57D1B2477B400E3A0B5 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +66,7 @@
 		D4E3181D1B23DD29003275B7 = {
 			isa = PBXGroup;
 			children = (
+				D41BE57C1B2477B400E3A0B5 /* AVFoundation.framework */,
 				D4E318281B23DD29003275B7 /* KDNCountDown */,
 				D4E318421B23DD29003275B7 /* KDNCountDownTests */,
 				D4E318271B23DD29003275B7 /* Products */,
@@ -416,6 +420,7 @@
 				D4E3184B1B23DD29003275B7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D4E3184C1B23DD29003275B7 /* Build configuration list for PBXNativeTarget "KDNCountDownTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +429,7 @@
 				D4E3184E1B23DD29003275B7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
